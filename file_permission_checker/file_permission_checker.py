@@ -15,4 +15,4 @@ if os.path.exists(path):
     if perm in ["777","767","666"]:
         print("[WARNING] File is world-writable and may pose a security risk")
 else:
-    print("invalid path")
+    print("invalid path")    
